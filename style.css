@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+body{
+    background-image: url("./count.jpg");
+    background-size: cover;
+    background-position: center, center;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+  font-size:  4.5rem;
+  margin-top :1rem;   
+}
+
+.Countdown{ 
+  display: flex;  
+}
+.bigtext{
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0 2rem;
+  
+}
+
+.countd{
+  text-align: center;
+}
+.countd span{
+font-size: 1.5rem;
+}
